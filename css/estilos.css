@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 238, 248);
+    font-size: 1.3rem;
+  }
+
+  
+  h1 {
+    color: rgb(68, 132, 250);
+    text-align: center;
+    font-family: 'Bauhaus 93';
+    text-shadow: 2px 2px red;
+    border: 1px;
+  }
+  
+  p {
+    font-family: 'Bauhaus 93';
+    font-size: 20px;
+  }
+
+  .contenido{
+    
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(9, 28, 235));
+    width: 768px;
+    max-width: 768px;
+    padding: 3rem;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 1rem;
+  }
+
+  .Buscador{
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+
+  .buscador_input{
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+  }
